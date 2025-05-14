@@ -1,18 +1,17 @@
-
 import React from "react"
 import SearchClient from "./SearchClient"
 import RecPage from "./RecPage"
 
 export default function HomePage() {
 return (
-<div>
-    <h1 className="text-4xl font-bold mb-8 animate-float">🌍 WanderWise Travel Explorer</h1>
-    <div className="bg-white bg-opacity-80 rounded-lg p-6 max-w-xl w-full shadow-lg card">
+<div className="text-center space-y-8">
+    <h1 className="text-5xl font-bold mb-8">🌍 WanderWise Travel Explorer</h1>
+    <div className="bg-white bg-opacity-90 rounded-lg p-6 max-w-2xl mx-auto shadow-md">
     <SearchClient />
     </div>
     <div>
-        <h1>Reccomendations</h1>
-        <RecPage/>
+    <h2 className="text-3xl font-semibold mb-4">Top Offbeat Treks</h2>
+    <RecPage />
     </div>
 </div>
 )
