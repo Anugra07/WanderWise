@@ -1,6 +1,6 @@
 import React from "react"
 import SearchClient from "./SearchClient"
-import RecPage from "./RecPage"
+import RecRes from "./RecRes"
 
 export default function HomePage() {
 return (
@@ -11,7 +11,7 @@ return (
     </div>
     <div>
     <h2 className="text-3xl font-semibold mb-4">Top Offbeat Treks</h2>
-    <RecPage />
+    <RecRes />
     </div>
 </div>
 )
